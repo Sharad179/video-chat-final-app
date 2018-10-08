@@ -34,7 +34,7 @@ app.get('/token', function(request, response) {
 const public = path.join(__dirname, './public');
 app.use('/', express.static(public));
 
-var port = process.env.PORT || 3000;
+var port = process.env.PORT || 3002;
 app.listen(port, function() {
   console.log('Express server running on *:' + port);
 });
